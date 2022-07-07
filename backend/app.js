@@ -31,7 +31,13 @@ app.use("/hotels", hotelsRoutes);
 app.use("/cars", carsRoutes);
 app.use("/mytrip", mytripRoutes);
 
+//Amadeus:
 
+const router = require("./router");
+app.use("/", router);
+const path = require("path")
+
+// --------------
 /** Handle 404 errors -- this matches everything */
 app.use(function (req, res, next) {
   return next(new NotFoundError());
