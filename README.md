@@ -112,7 +112,7 @@ Heroku
 
 ### Future-Features
   - The travel time feature:
-    - Automatically calculate the flights and hotel date to count down in account, analyze hotel and fliht costs
+    - Automatically calculate the flights and hotel date to count down in account, analyze hotel and flight costs
     - Book flight and hotel
     - When you search for any destination in the world, you will get recommendations for nice venues and places to visit in the area and detailed information about those places including pictures and maps.
     - Create app on the phone
