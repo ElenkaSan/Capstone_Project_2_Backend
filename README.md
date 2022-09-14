@@ -22,15 +22,15 @@ For this CP database that takes trip-related information from the [Priceline API
 
 ```sh
 DB schema: 
-  ├── trips table (favorite trip) 
+  ├── trips table (favorite flights/hotels) 
   │   └── users table
   │                 
   ├── flightReservations table
-  ├── hotelReservations table
-  └── carRentals table
+  └── hotelReservations table
  ```
 
-<img width="1249" alt="Screen Shot 2022-06-12 at 12 39 33 PM" src="https://user-images.githubusercontent.com/75818489/173243653-85f497ea-a5f3-40c7-af9e-82319bb7d75e.png">
+<img width="1112" alt="Screen Shot 2022-09-13 at 10 41 47 PM" src="https://user-images.githubusercontent.com/75818489/190046636-681a9b5d-8626-465b-afbc-14ee0032dd5a.png">
+
 
 ## [Front-end](https://github.com/ElenkaSan/Capstone_Project_2_Frontend.git)
 
@@ -52,8 +52,6 @@ cd into the "frontend" directory, install required packages, then start the app
 | /hotels/:handle     | HotelDetail       |
 | /flights            | FlightsList       |
 | /flights/:handle    | FlightDetail      |
-| /carsrental         | CarsrentalList    |
-| /carsrental/:handle | CarrentalDetail   |
 | /profile            | ProfileForm       |
 | /mytrip             | UserAccount       |
 
