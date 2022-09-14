@@ -1,7 +1,7 @@
 # Capstone Project 2 - Vacation Time
 ### *Try the app [Vacation Time - not yet](https://blabla.herokuapp.com/)*
-Ready for travel, let’s make the trip of your dreams. This website `Vacation Time` allows you to find the nice hotel, flight and car rental for you with the best price. When your make next travel destination then can do a record personalized notes for vacation planning after create an account.
-When you search for any destination in the world, you will get recommendations for nice venues and places to visit in the area and detailed information about those places including pictures and maps. You can conveniently save your results along with any notes you've made in your personalized list.
+Ready for travel, let’s make the trip of your dreams. This website `Vacation Time` allows you to find the nice hotel, flight for you with the best price. When your make next travel destination then can do a record personalized notes for vacation planning after create an account.
+ You can conveniently save your results along with any notes you've made in your personalized list.
 This website allows users to create an account and save the result after that with create a list of their favorites. 
 
 ## App Information
@@ -109,6 +109,16 @@ The app's functionality includes:
 
 ### Hosting
 Heroku
+
+### Future-Features
+  - The travel time feature:
+    - Automatically calculate the flights and hotel date to count down in account, analyze hotel and fliht costs
+    - Book flight and hotel
+    - When you search for any destination in the world, you will get recommendations for nice venues and places to visit in the area and detailed information about those places including pictures and maps.
+    - Create app on the phone
+
+*Stretch goals:*
+  - Share favorite recipes lists with other users on the site. Good for family members, that they can add this list to their account.
 
 Feel free to improve or contribute. Pull requests are always welcome!
 Author [Elena Nurullina](https://github.com/ElenkaSan/)
