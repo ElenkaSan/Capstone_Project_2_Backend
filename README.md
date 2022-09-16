@@ -48,7 +48,7 @@ cd into the "frontend" directory, install required packages, then start the app
 | /                   | Homepage          |  
 | /signup             | SignupForm        |   
 | /login              | LoginForm         |  
-| /hotels   	        | HotelsList        |
+| /hotels   	        | AddHotel          |
 | /hotels/:handle     | HotelDetail       |
 | /flights            | FlightsList       |
 | /flights/:handle    | FlightDetail      |
@@ -59,37 +59,46 @@ cd into the "frontend" directory, install required packages, then start the app
 ```sh
 App
 api
+amadeusApi
+APIw
+airportData
+src
+│ 
 ├── Routes-nav
 │   ├── Navigation
 │   └── Routes
 │ 
 ├── Hotels
-│   ├── HotelsCard
-│   ├── HotelsList ── Search
+│   ├── SearchHotels
+│   ├── AddHotel
 │   └── HotelDetail 
 │   
 ├── Flights
-│   ├── FlightsCard
-│   ├── FlightsList ── Search
+│   ├── SearchFlights
+│   ├── AddFlight
 │   └── FlightDetail 
-│ 
-├── Carsrental
-│   ├── CarsrentalCard
-│   ├── CarsrentalList ── Search
-│   └── CarrentalDetail 
 │ 
 ├── Homepage ── NoLoggedIn
 │ 
 ├─┬ Auth
 │ │ ├── LoginForm
 │ │ ├── SignupForm
-│ │ └── ProfileForm ── UserAccount (myTrip)
+│ │ └── ProfileForm ── UserPage
 │ └── UserContext
+│
+├── TripPage
+│   ├── MyTrip
+│   ├── CountDown
+│   └── FlightDetail 
 │ 
 ├── Common
 │   ├── LoadingSpinner 
-│   ├── SearchForm
 │   └── Alert
+│
+├── WeatherPage
+│   ├── WeatherPage 
+│   ├── WeatherDayCard
+│   └── WeatherSearchBar
 │ 
 └── Hooks
     ├── useLocalStorage
@@ -99,8 +108,8 @@ api
 
 ### Functionality
 The app's functionality includes:
-  - User can search trip for every place on Earth
-  - User can save favorite place results into thier favorites list after signup
+  - User can search flights / hotels for every place on Earth
+  - User can save favorite flight / hotel results into thier User Account and Trip Page after signup
   - User can record ideas and ruminations about the venue in your own personal note
 
 ### Technology Stack
