@@ -49,11 +49,12 @@ cd into the "frontend" directory, install required packages, then start the app
 | /signup             | SignupForm        |   
 | /login              | LoginForm         |  
 | /hotels   	        | AddHotel          |
-| /hotels/:handle     | HotelDetail       |
-| /flights            | FlightsList       |
-| /flights/:handle    | FlightDetail      |
-| /profile            | ProfileForm       |
-| /mytrip             | UserAccount       |
+| /hotels             | HotelDetail       |
+| /flights            | AddFlight         |
+| /flights            | FlightDetail      |
+| /profile            | UserPage          |
+| /update             | ProfileForm       |
+| /mytrip             | User Trip Page    |
 
 ## Component Architecture
 ```sh
