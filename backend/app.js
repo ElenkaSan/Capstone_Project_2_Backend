@@ -1,6 +1,6 @@
 "use strict";
 
-/** Express app for jobly. */
+/** Express app for vacation-time */
 
 const express = require("express");
 const cors = require("cors");
@@ -12,8 +12,7 @@ const authRoutes = require("./routes/auth");
 const usersRoutes = require("./routes/users");
 const hotelsRoutes = require("./routes/hotels");
 const flightsRoutes = require("./routes/flights");
-const carsRoutes = require("./routes/cars");
-const mytripRoutes = require("./routes/mytrip");
+// const mytripRoutes = require("./routes/mytrip");
 
 const morgan = require("morgan");
 
@@ -28,16 +27,10 @@ app.use("/auth", authRoutes);
 app.use("/users", usersRoutes);
 app.use("/flights", flightsRoutes);
 app.use("/hotels", hotelsRoutes);
-app.use("/cars", carsRoutes);
-app.use("/mytrip", mytripRoutes);
+// app.use("/mytrip", mytripRoutes);
 
-//Amadeus:
+// -------------------
 
-const router = require("./router");
-app.use("/", router);
-const path = require("path")
-
-// --------------
 /** Handle 404 errors -- this matches everything */
 app.use(function (req, res, next) {
   return next(new NotFoundError());
