@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.floght.com/flightSearch.schema.json",
+    "type": "object",
+    "properties": {
+      "numberOfPassengers": {
+        "type": "integer"
+      },
+      "locationA": {
+        "type": "string"
+      },
+      "dateD": {
+        "type": "string"
+      },
+      "locationD": {
+        "type": "string"
+      },
+      "price": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "additionalProperties": false,
+    "required": []
+  }

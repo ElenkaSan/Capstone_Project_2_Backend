@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.flight.com/flightUpdate.schema.json",
+    "type": "object",
+    "properties": {
+      "numberOfPassengers": {
+        "type": "integer"
+      },
+      "locationD": {
+        "type": "string"
+      },
+      "locationA": {
+        "type": "string"
+      },
+      "dateD": {
+        "type": "string"
+      },
+      "dateA": {
+        "type": "string"
+      },
+      "price": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "currency": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false,
+    "required": []
+  }
